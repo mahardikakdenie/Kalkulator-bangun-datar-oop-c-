@@ -99,7 +99,7 @@ int main(int argc, char const *argv[])
             }
             else if (pil == 4)
             {
-                Obj4.LuasTrapesium();
+                Obj4.input();
                 Obj4.DisplayK();
             }
             else if (pil == 5)
