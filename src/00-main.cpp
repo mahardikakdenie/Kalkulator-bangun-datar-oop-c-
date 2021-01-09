@@ -1,12 +1,7 @@
 #include <iostream>
 #include <string>
 
-#include "01-BangunRuang.hpp"
-#include "02-Persegi.hpp"
-#include "03-PersegiPanjang.hpp"
-#include "04-Lingkaran.hpp"
-#include "05-Trapesium.hpp"
-#include "06-BelahKetupat.hpp"
+#include "Server/Server.hpp"
 
 using namespace std;
 
