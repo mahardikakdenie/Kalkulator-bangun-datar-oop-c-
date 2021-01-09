@@ -30,6 +30,7 @@ class Trapesium : public BangunRuang{
         void DisplayK () {
             cout << "Rumus Keliling Trapesium " << endl;
             Hasil = ab + bc + cd + da ;
+            cout << "Rumus Keliling Trapesium : " << "AB + BC + CD + DA "<<endl;
             cout << "Rumus Keliling Trapesium : " << ab << " + " << bc << " + " << cd << " + " << da << " = " << Hasil << endl;
             cout << "Hasil Keliling Trapesium : " << Hasil << endl;
         }

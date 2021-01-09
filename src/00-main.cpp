@@ -16,8 +16,8 @@ int main(int argc, char const *argv[])
         Lingkaran Obj3;
         Trapesium Obj4;
         BelahKetupat Obj5;
-        
-        Operator:
+
+    Operator:
         system("cls");
         cout << "---------Kalkulator Bangun Datar---------" << endl;
         cout << "1.Luas : " << endl;
@@ -34,8 +34,8 @@ int main(int argc, char const *argv[])
             cout << "3.Lingkaran" << endl;
             cout << "4.Trapesium" << endl;
             cout << "5.Belah Ketupat" << endl;
-
-            cout << "Pilih [ 1 / 2 / 3 / 4 / 5 ]: ";
+            cout << "6.Kembali " << endl;
+            cout << "Pilih [ 1 / 2 / 3 / 4 / 5 / 6 ]: ";
             cin >> pil;
             if (pil == 1)
             {
@@ -62,20 +62,27 @@ int main(int argc, char const *argv[])
                 Obj5.LuasBelahKetupat();
                 Obj5.Display();
             }
+            else if (pil == 6)
+            {
+                goto Operator;
+            }
             else
             {
                 goto MainMenu;
             }
-        } else if (pil == 2) {
-            MainMenu1:
+        }
+        else if (pil == 2)
+        {
+        MainMenu1:
             cout << "---------Kalkulator Bangun Datar---------" << endl;
             cout << "1.Persegi" << endl;
             cout << "2.Persegi Panjang" << endl;
             cout << "3.Lingkaran" << endl;
             cout << "4.Trapesium" << endl;
             cout << "5.Belah Ketupat" << endl;
+            cout << "6.Kembali " << endl;
 
-            cout << "Pilih [ 1 / 2 / 3 / 4 / 5 ]: ";
+            cout << "Pilih [ 1 / 2 / 3 / 4 / 5 / 6 ]: ";
             cin >> pil;
             if (pil == 1)
             {
@@ -102,15 +109,20 @@ int main(int argc, char const *argv[])
                 Obj5.LuasBelahKetupat();
                 Obj5.DisplayK();
             }
+            else if (pil == 6)
+            {
+                goto Operator;
+            }
+
             else
             {
                 goto MainMenu1;
             }
-        } else {
+        }
+        else
+        {
             goto Operator;
         }
-            
-        
 
         cout << endl;
 
