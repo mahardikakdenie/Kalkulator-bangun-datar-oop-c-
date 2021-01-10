@@ -106,7 +106,7 @@ int main(int argc, char const *argv[])
             }
             else if (pil == 5)
             {
-                Obj5.LuasBelahKetupat();
+                Obj5.Inputan();
                 Obj5.DisplayK();
             }
             else if (pil == 6)

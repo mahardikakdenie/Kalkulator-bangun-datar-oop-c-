@@ -5,12 +5,12 @@
 
 using namespace std;
 
-class BangunRuang{
-    protected:
-        int value1;
-        int value2;
-        float Hasil;
+class BangunRuang
+{
+protected:
+    int value1;
+    int value2;
+    float Hasil;
 };
-
 
 #endif

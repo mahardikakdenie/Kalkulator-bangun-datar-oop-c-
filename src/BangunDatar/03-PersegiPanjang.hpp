@@ -24,7 +24,7 @@ class PersegiPanjang : public BangunRuang{
         }
 
         void DisplayK () {
-            cout << "Keliling Persegi Panjang "<<endl;
+            cout << "\nKeliling Persegi Panjang "<<endl;
             cout<< "Rumus Keliling Persegi Panjang : 2 * ( panjang + lebar )"<<endl;
             Hasil = 2 * (value1 + value2) ;
             cout << "Rumus Keliling Panjang  : " << " 2 " << " * " << " ( " << value1 << " + " << value2 << " ) " << " = " << Hasil << endl;
