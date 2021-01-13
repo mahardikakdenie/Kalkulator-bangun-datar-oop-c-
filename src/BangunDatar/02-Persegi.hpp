@@ -31,7 +31,7 @@ public:
         cout << "Keliling Peregi : sisi + sisi + sisi + sisi " << endl;
         Hasil = value1 * value1 * value1 * value1;
         cout << "Rumus Keliling : " << value1 << " + " << value1 << " + "
-             << " + " << value1 << " + " << value1 << " = " << Hasil << endl;
+             << value1 << " + " << value1 << " = " << Hasil << endl;
         cout << "Keliling Persegi : " << Hasil << endl;
     }
 };
