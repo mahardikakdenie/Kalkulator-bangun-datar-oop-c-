@@ -10,13 +10,6 @@ int main(int argc, char const *argv[])
     char lagi;
     do
     {
-
-        Persegi Obj1;
-        PersegiPanjang Obj2;
-        Lingkaran Obj3;
-        Trapesium Obj4;
-        BelahKetupat Obj5;
-
     Operator:
         system("cls");
         cout << "---------Kalkulator Bangun Datar---------" << endl;
@@ -39,26 +32,31 @@ int main(int argc, char const *argv[])
             cin >> pil;
             if (pil == 1)
             {
+                Persegi Obj1;
                 Obj1.luasPersegi();
                 Obj1.Display();
             }
             else if (pil == 2)
             {
+                PersegiPanjang Obj2;
                 Obj2.luasPersegiPanjang();
                 Obj2.Display();
             }
             else if (pil == 3)
             {
+                Lingkaran Obj3;
                 Obj3.luasLingkaran();
                 Obj3.Display();
             }
             else if (pil == 4)
             {
+                Trapesium Obj4;
                 Obj4.LuasTrapesium();
                 Obj4.Display();
             }
             else if (pil == 5)
             {
+                BelahKetupat Obj5;
                 Obj5.LuasBelahKetupat();
                 Obj5.Display();
             }
@@ -86,26 +84,31 @@ int main(int argc, char const *argv[])
             cin >> pil;
             if (pil == 1)
             {
+                Persegi Obj1;
                 Obj1.InputKeliling();
                 Obj1.displayK();
             }
             else if (pil == 2)
             {
+                PersegiPanjang Obj2;
                 Obj2.InputanKeliling();
                 Obj2.DisplayK();
             }
             else if (pil == 3)
             {
+                Lingkaran Obj3;
                 Obj3.InputanKeliling();
                 Obj3.DisplayK();
             }
             else if (pil == 4)
             {
+                Trapesium Obj4;
                 Obj4.input();
                 Obj4.DisplayK();
             }
             else if (pil == 5)
             {
+                BelahKetupat Obj5;
                 Obj5.Inputan();
                 Obj5.DisplayK();
             }
