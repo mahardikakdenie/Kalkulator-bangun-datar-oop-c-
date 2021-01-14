@@ -86,17 +86,17 @@ int main(int argc, char const *argv[])
             cin >> pil;
             if (pil == 1)
             {
-                Obj1.luasPersegi();
+                Obj1.InputKeliling();
                 Obj1.displayK();
             }
             else if (pil == 2)
             {
-                Obj2.luasPersegiPanjang();
+                Obj2.InputanKeliling();
                 Obj2.DisplayK();
             }
             else if (pil == 3)
             {
-                Obj3.luasLingkaran();
+                Obj3.InputanKeliling();
                 Obj3.DisplayK();
             }
             else if (pil == 4)

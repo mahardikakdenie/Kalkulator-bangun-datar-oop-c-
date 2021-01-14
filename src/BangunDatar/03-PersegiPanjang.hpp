@@ -16,6 +16,12 @@ class PersegiPanjang : public BangunRuang{
             cout<<"Masukan Lebar : ";cin>>value2;
         }
 
+        void InputanKeliling(){
+            cout<<"\nLuas Persegi Panjang "<<endl;
+            cout<<"Masukan Panjang : ";cin>>value1;
+            cout<<"Masukan Lebar : ";cin>>value2;
+        }
+
          void Display(){
             cout<<"\nRumus Luas Persegi Panjang : Panjang * lebar"<<endl;
             cout<<"Rumus Luas PersegiPanjang = "<<value1<<" * "<<value2<<endl;

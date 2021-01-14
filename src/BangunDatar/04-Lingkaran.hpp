@@ -17,6 +17,11 @@ public:
         cout << "Masukan Jari-Jari : ";
         cin >> value1;
     }
+    void InputanKeliling()
+    {
+        cout << "Masukan Jari-Jari : ";
+        cin >> value1;
+    }
     void Display()
     {
         cout << "\nRumus Luas Lingkaran : phi * jari-jari * jari-jari " << endl;

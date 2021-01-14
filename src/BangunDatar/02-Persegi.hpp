@@ -17,6 +17,13 @@ public:
         cin >> value1;
     }
 
+    void InputKeliling()
+    {
+        cout << "\nKeliling Persegi" << endl;
+        cout << "Masukan Panjang Sisi : ";
+        cin >> value1;
+    }
+
     void Display()
     {
         cout << "\nRumus Luas Persegi : sisi * sisi" << endl;
