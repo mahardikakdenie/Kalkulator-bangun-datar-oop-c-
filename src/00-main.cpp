@@ -21,6 +21,7 @@ int main(int argc, char const *argv[])
         if (pil == 1)
         {
         MainMenu:
+            system("cls");
             cout << "---------Kalkulator Bangun Datar---------" << endl;
             cout << "1.Persegi" << endl;
             cout << "2.Persegi Panjang" << endl;
@@ -72,6 +73,7 @@ int main(int argc, char const *argv[])
         else if (pil == 2)
         {
         MainMenu1:
+            system("cls");
             cout << "---------Kalkulator Bangun Datar---------" << endl;
             cout << "1.Persegi" << endl;
             cout << "2.Persegi Panjang" << endl;
