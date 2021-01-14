@@ -27,7 +27,7 @@ public:
     }
     void Inputan()
     {
-        cout << "Keliling BelahKetupat : " << endl;
+        cout << "\nKeliling BelahKetupat : " << endl;
         cout << "Masukan Panjang Sisi : ";
         cin >> value1;
     }

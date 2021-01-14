@@ -12,6 +12,7 @@ public:
     int ab, bc, cd, da;
     void LuasTrapesium()
     {
+        cout << "\nLuas Trapesium" << endl;
         cout << "Masukan Panjang Sisi Sejajar : ";
         cin >> value1;
         cout << "Masukan Tinggi : ";
