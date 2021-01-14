@@ -11,13 +11,13 @@ using namespace std;
 class PersegiPanjang : public BangunRuang{
     public:
         void luasPersegiPanjang(){
-            cout<<"\nLuas Persegi Panjang "<<endl;
+            cout<<"\nLuas Persegi Panjang : "<<endl;
             cout<<"Masukan Panjang : ";cin>>value1;
             cout<<"Masukan Lebar : ";cin>>value2;
         }
 
         void InputanKeliling(){
-            cout<<"\nLuas Persegi Panjang "<<endl;
+            cout<<"\nKeliling Persegi Panjang : "<<endl;
             cout<<"Masukan Panjang : ";cin>>value1;
             cout<<"Masukan Lebar : ";cin>>value2;
         }

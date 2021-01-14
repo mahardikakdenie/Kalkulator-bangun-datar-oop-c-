@@ -14,11 +14,13 @@ private:
 public:
     void luasLingkaran()
     {
+        cout << "Luas Lingkaran : " << endl;
         cout << "Masukan Jari-Jari : ";
         cin >> value1;
     }
     void InputanKeliling()
     {
+        cout << "Keliling Lingkaran : " << endl;
         cout << "Masukan Jari-Jari : ";
         cin >> value1;
     }

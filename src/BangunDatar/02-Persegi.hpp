@@ -12,14 +12,14 @@ private:
 public:
     void luasPersegi()
     {
-        cout << "\nLuas Persegi" << endl;
+        cout << "\nLuas Persegi : " << endl;
         cout << "Masukan Panjang Sisi : ";
         cin >> value1;
     }
 
     void InputKeliling()
     {
-        cout << "\nKeliling Persegi" << endl;
+        cout << "\nKeliling Persegi : " << endl;
         cout << "Masukan Panjang Sisi : ";
         cin >> value1;
     }

@@ -27,7 +27,7 @@ public:
     }
     void input()
     {
-        cout << "Keliling Trapesium " << endl;
+        cout << "\nKeliling Trapesium : " << endl;
         cout << "Masukan Inputan AB : ";
         cin >> ab;
         cout << "Masukan Inputan BC : ";

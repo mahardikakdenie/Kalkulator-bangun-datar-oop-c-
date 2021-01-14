@@ -11,7 +11,7 @@ class BelahKetupat : public BangunRuang
 public:
     void LuasBelahKetupat()
     {
-        cout << "\nLuas BelahKetupat" << endl;
+        cout << "\nLuas BelahKetupat : " << endl;
         cout << "Masukan Panjang Diagonal 1 : ";
         cin >> value1;
         cout << "Masukan Panjang Diagonal 2 : ";
@@ -27,6 +27,7 @@ public:
     }
     void Inputan()
     {
+        cout << "Keliling BelahKetupat : " << endl;
         cout << "Masukan Panjang Sisi : ";
         cin >> value1;
     }
